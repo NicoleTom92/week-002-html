@@ -1,0 +1,58 @@
+
+.heading{
+	width: 50%;
+	margin: 20px auto;
+	text-align: center;
+	color: 	rgb(3, 3, 3);
+	background: rgb(241, 217, 234);
+	border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Indie Flower', cursive;
+}
+.a {
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 20px;
+}
+
+.tasks {
+    text-align: center;
+    left: 150px;
+    margin: 20px;
+    border-spacing: 15px;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 30px;
+    width: 50%;
+	margin: 20px auto;
+	text-align: left;
+	color: 	rgb(3, 3, 3);
+	background: rgb(241, 217, 234);
+    border-radius: 10px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#list-heading {
+    background-color: none ;
+    text-align: center;
+    border: none;
+}
+
+body {
+    background-color:rgb(241, 217, 234);
+    margin:0;
+    height:50vh;
+    width: 100vw;
+}
+
+span {
+display:inline-block;
+margin: 10px
+}
+
+button:hover {
+    cursor: pointer;
+background-color: pink;
+}
