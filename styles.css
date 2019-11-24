@@ -4,11 +4,12 @@
 	margin: 20px auto;
 	text-align: center;
 	color: 	rgb(3, 3, 3);
-	background: rgb(241, 217, 234);
-	border: 2px solid black;
+    background:rgb(245, 231, 241);
+	border: 1px solid black;
     border-radius: 10px;
     font-family: 'Indie Flower', cursive;
 }
+
 .a {
     text-align: center;
     font-family: 'Didact Gothic', sans-serif;
@@ -29,10 +30,15 @@
 	margin: 20px auto;
 	text-align: left;
 	color: 	rgb(3, 3, 3);
-	background: rgb(241, 217, 234);
-    border-radius: 10px;
+	background: rgb(245, 231, 241);
+    border-radius: 20px;
     font-family: 'Didact Gothic', sans-serif;
+    border-collapse: collapse;
 }
+
+table, th, td {
+    border: 0.5px solid black;
+  }
 
 #list-heading {
     background-color: none ;
@@ -41,7 +47,7 @@
 }
 
 body {
-    background-color:rgb(241, 217, 234);
+    background-color:rgb(245, 231, 241);
     margin:0;
     height:50vh;
     width: 100vw;
@@ -52,7 +58,13 @@ display:inline-block;
 margin: 10px
 }
 
+button {
+    width: 85px;
+    display: block;
+    margin: auto;
+  }
+
 button:hover {
-    cursor: pointer;
+cursor: pointer;
 background-color: pink;
 }
