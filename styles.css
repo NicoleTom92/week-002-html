@@ -11,7 +11,6 @@
     font-size: x-large;
     position: top;
     margin-bottom: 65px;
-
 }
 
 .a {
@@ -20,10 +19,17 @@
     margin-top: -30px;
     margin-left: 50px;
 	color: 	rgb(3, 3, 3);
-    font-family: 'Indie Flower', cursive;
     font-size: x-large;
     position: top;
 }
+
+.tasks2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: large;
+    margin-left:50px;
+    margin-top: 20px;
+}
+
 
 body { 
     background: url(To\ do\ scissors\ .jpeg) no-repeat center center fixed; 
@@ -33,20 +39,31 @@ body {
     background-size: cover;
   }
 
-.tasks {
-    text-align: center;
-    left: 150px;
-    margin: 20px;
-    border-spacing: 15px;
-}
+  caption {
+    text-align: left;
+    float: left;
+    font-weight: bold;
+    text-decoration: underline;
+  }
 
 .table {
-    margin-right: 100px;
     margin-top: 30px;
     text-align: left;
-    border-spacing: 80px;
+    border-spacing: 50px;
     font-family: 'Indie Flower', cursive;
     font-size: x-large;
+    float: left;
+    width:40%;
+}
+
+.table2 {
+        margin-top: 30px;  
+        text-align: left;
+        border-spacing: 50px;
+        font-family: 'Indie Flower', cursive;
+        font-size: x-large;
+        width:30%;
+        float: left;
 }
 
 #list-heading {
@@ -72,7 +89,7 @@ button {
     display: block;
     margin: auto;
     background-color: rgba(165, 42, 42, 0.308);
-    border: black thick;
+    border: 1.5px solid black; 
     font-size: medium;
     font-family: 'Indie Flower', cursive;
   }
