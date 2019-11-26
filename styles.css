@@ -1,20 +1,37 @@
 
 .heading{
-	width: 50%;
-	margin: 20px auto;
-	text-align: center;
+    text-align: left;
+    left: 80px;
+    margin-top: 50px;
+    margin: 30px auto;
+    margin-left: 50px;
 	color: 	rgb(3, 3, 3);
-    background:rgb(245, 231, 241);
-	border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 100px;
     font-family: 'Indie Flower', cursive;
+    font-size: x-large;
+    position: top;
+    margin-bottom: 65px;
+
 }
 
 .a {
-    text-align: center;
-    font-family: 'Didact Gothic', sans-serif;
-    margin: 20px;
+    text-align: left;
+    font-family: 'Indie Flower', cursive;
+    margin-top: -30px;
+    margin-left: 50px;
+	color: 	rgb(3, 3, 3);
+    font-family: 'Indie Flower', cursive;
+    font-size: x-large;
+    position: top;
 }
+
+body { 
+    background: url(To\ do\ scissors\ .jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 .tasks {
     text-align: center;
@@ -24,21 +41,13 @@
 }
 
 .table {
-  border-collapse: separate;
-  border-spacing: 30px;
-    width: 50%;
-	margin: 20px auto;
-	text-align: left;
-	color: 	rgb(3, 3, 3);
-	background: rgb(245, 231, 241);
-    border-radius: 20px;
-    font-family: 'Didact Gothic', sans-serif;
-    border-collapse: collapse;
+    margin-right: 100px;
+    margin-top: 30px;
+    text-align: left;
+    border-spacing: 80px;
+    font-family: 'Indie Flower', cursive;
+    font-size: x-large;
 }
-
-table, th, td {
-    border: 0.5px solid black;
-  }
 
 #list-heading {
     background-color: none ;
@@ -62,9 +71,13 @@ button {
     width: 85px;
     display: block;
     margin: auto;
+    background-color: rgba(165, 42, 42, 0.308);
+    border: black thick;
+    font-size: medium;
+    font-family: 'Indie Flower', cursive;
   }
 
 button:hover {
 cursor: pointer;
-background-color: pink;
+background-color:rgba(238, 103, 54, 0.568);
 }
