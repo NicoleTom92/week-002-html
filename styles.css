@@ -1,3 +1,10 @@
+body { 
+    background: url(To\ do\ scissors\ .jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 .heading{
     text-align: left;
@@ -13,7 +20,7 @@
     margin-bottom: 65px;
 }
 
-.a {
+.AddSection {
     text-align: left;
     font-family: 'Indie Flower', cursive;
     margin-top: -30px;
@@ -23,65 +30,24 @@
     position: top;
 }
 
-.tasks2 {
+.taskslefttocomplete {
     font-family: 'Indie Flower', cursive;
-    font-size: large;
+    font-size: x-large;
     margin-left:50px;
     margin-top: 20px;
 }
 
-
-body { 
-    background: url(To\ do\ scissors\ .jpeg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-  caption {
-    text-align: left;
-    float: left;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-
-.table {
-    margin-top: 30px;
-    text-align: left;
-    border-spacing: 50px;
-    font-family: 'Indie Flower', cursive;
-    font-size: x-large;
-    float: left;
-    width:40%;
-}
-
-.table2 {
-        margin-top: 30px;  
-        text-align: left;
-        border-spacing: 50px;
-        font-family: 'Indie Flower', cursive;
-        font-size: x-large;
-        width:30%;
-        float: left;
-}
-
-#list-heading {
-    background-color: none ;
-    text-align: center;
-    border: none;
-}
-
-body {
-    background-color:rgb(245, 231, 241);
-    margin:0;
-    height:50vh;
-    width: 100vw;
-}
-
 span {
-display:inline-block;
-margin: 10px
+    display:inline-block;
+    margin: 10px
+    }
+
+.container {
+    font-family: 'Indie Flower', cursive;
+    display: inline-block;
+    font-size:large;
+    margin-top: 50px;
+    margin-left: 20px;
 }
 
 button {
@@ -95,6 +61,7 @@ button {
   }
 
 button:hover {
-cursor: pointer;
-background-color:rgba(238, 103, 54, 0.568);
+    cursor: pointer;
+    background-color:rgba(238, 103, 54, 0.568);
 }
+
